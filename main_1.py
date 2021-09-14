@@ -33,7 +33,7 @@ def CountFreq(Str):
             Freq[sym] = 1
     return Freq
 # Humman treemaker
-# We made a priority queue based on the frequencies of the given characters.
+# We made a priority queue based on the frequencies of the given characters and making huffman using that PQ.
 def Huffmantreemaker(Str,Freq):
     nodePQ = [] 
     for key,val in Freq.items():
